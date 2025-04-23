@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+
+/* navbar section */
+.navbar{
+    height: 70px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav1{
+    display: flex;
+    padding-left: 20px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.nav1 i{
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.nav2{
+    padding-right: 40px;
+}
+.nav2 a{
+    padding-right: 15px;
+    font-style: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid #68d590
+}
+/* home section */
+.home1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 700px;
+}
+.backphoto{
+    background-color: #58f12a;
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    padding:1.5px;
+    margin-right: 140px;
+
+}
+.myphoto{
+    height: 270px;
+    width: 270px;
+    background-image: url(myimg.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.myinfo{
+    font-size: 120%;
+    margin-left: 160px;
+}
+.myinfo h1{
+    font-size: 32px;
+    margin-top: -10px;
+}
+.myinfo p{
+    font-size:16px;
+    margin: 10px 0 25px;
+}
+/* education section */
+.educa{
+    height: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ssc{
+    height: 400px;
+    width: 250px;
+    background-color: #8EA8C3;   
+}
+.btech{
+    height: 400px;
+    width: 250px;
+    align-items: center;
+    background-color: #8EA8C3;
+}
+.hsc{
+    height: 400px;
+    width: 250px;
+    background-color: #8EA8C3;
+}
+.btech h1{
+    color: #000000;
+    margin-left:20px;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.btech ul{
+    margin-top:10px;
+}
+.btech ul li{
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-weight: 750;
+    color: rgb(71, 88, 65);
+}
+.btech ul p{
+    color: #23395B;
+}
+.ssc h1{
+    color: black;
+    margin-top: 20px;
+    margin-left:12px;
+
+}
+.ssc h3{
+    color: rgb(71, 88, 65);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:15px;
+}
+.ssc p{
+    margin-top: 3px;
+    margin-left:15px;
+    color: #23395B;
+}
+
+.hsc h1{
+    color: #000000;
+    margin: 20px 0px 30px 30px;
+}
+.hsc h3{
+    color: rgb(71, 88, 65);
+    margin: 10px 0px 1px 20px;
+}
+.hsc p{
+    margin-left: 45px;
+    margin-top: 5px;
+    color: #23395B;
+}
+.Skill{
+    height: 650px;
+}
+.skill1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6PX;
+}
+.skill2{
+    display: flex;
+    margin-top: 6px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c{
+    height: 200px;
+    width: 180px;
+    background-color: #7e3939;
+    background-image:url(c.jpg);
+    background-size: cover;
+     
+}
+.linux{
+    height:200px;
+    width:180px;
+    background-image:url(linux.jpg);
+    background-size: cover;
+}
+.python{
+    height:200px;
+    width:180px;
+    background-image:url(python.jpg);
+    background-size: cover;
+}
+.html{
+    height:200px;
+    width:180px;
+    background-image:url(html.jpg);
+    background-size: cover;
+}
+.css{
+    height:200px;
+    width:180px;
+    background-image:url(css.jpg);
+    background-size: cover;
+}
+.name1{
+    display: flex;
+    margin-left: 225px;
+    align-items: center;
+    margin-top: 50px;
+}
+.name2{
+    display: flex;
+    margin-left: 390px;
+    align-items: center;
+    margin-top: 100px;
+}
+/* about section */
+.about{
+    height: 750px;
+    
+}
+.about-box{
+    height: 350px;
+    width:700px;
+    background-color: #2b2929;
+    margin-top: 100px;
+    margin-left: 320px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.color:hover{
+    color: #FF7E5F;
+}
+.wordcolor{
+    color: #FF7E5F;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.insta{
+    color: #e1306c;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.insta:hover {
+    color: #3b032a;
+    text-shadow: 0 0 10px #E1306C, 0 0 20px #FCAF45, 0 0 30px #5C37B7; 
+}
+.linkdin{
+    color: #0A66C2;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.linkdin:hover {
+    color: #0c253d; 
+    text-shadow: 0 0 10px #0A66C2, 0 0 20px #0A66C2; 
+}
+.whatapp{
+    color: #25d366;
+}
+.whatapp:hover {
+    color: #034c20; 
+    text-shadow: 0 0 10px #25D366, 0 0 20px #25D366; 
+}
+.twitter{
+    color: #1DA1F2;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.twitter:hover{
+    color: #053a5b; 
+    text-shadow: 0 0 15px #1DA1F2, 0 0 20px #1DA1F2;
+}
+.scroll{
+height: 50px;
+width: 50px;
+background-color: #233958;
+border-radius: 50%;
+margin-right: 20px;
+align-items: center;
+display: flex;
+font-size: 80px;
+justify-content: center;
+}
+.inside{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:sticky;
+    top: 250px;
+}
+.scroll a{
+    color: #CBF7ED;
+    margin-right:10px;
+}
+.contact{
+    height:710px;
+    width:85%;
+    background-color: aqua;
+    margin-left:100px;
+    align-items: center;
+    
+}
+.head{
+    color: #000000;
+    padding-left: 80px;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.all{
+    margin-top: 60px;
+    display: flex;
+    padding-left:80px;
+}
+.request{
+    height: 480px;
+    width: 600px;
+    color: #000000;
+    background-color: rgb(246, 246, 246);
+}
+.request h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.reach{
+    height: 480px;
+    width: 350px;
+    background-color:#2c09b8;
+}
+.reach h3{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.label {
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+.label input, .label textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.label button {
+    background: #1e90ff;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 1.5px;
+    border: none;
+    cursor: pointer;
+    width: 99%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.reach p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.reach span{
+    font-weight: 600;
+    font-size: 10;
+}
+.reach em{
+    text-decoration: none;
+    margin-left: 80px;
+}
